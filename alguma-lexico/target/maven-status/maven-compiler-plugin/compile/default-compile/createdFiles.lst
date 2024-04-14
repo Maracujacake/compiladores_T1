@@ -1,9 +1,2 @@
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerParser$ExpressaoContext.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerLexer.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerParser$TermoContext.class
-br/ufscar/dc/compiladores/alguma/lexico/Principal.class
 br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexer.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerListener.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerParser.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerBaseListener.class
-br/ufscar/dc/compiladores/alguma/lexico/AlgumaLexerParser$FatorContext.class
+br/ufscar/dc/compiladores/alguma/lexico/Principal.class
