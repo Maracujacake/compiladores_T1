@@ -4,20 +4,17 @@ COMENTARIO: COMENTARIO_ERRO
             '}'
             -> skip;
 
-
-
-
 /* Erro de comentario */
 COMENTARIO_ERRO: '{'
             (' ' | 'A'..'Z' | 'a'..'z' | '0'..'9' | '\u0080'..'\uffff' | SIMBOLOS | SIMBOLO_NAODEFINIDO | CADEIA | OP_RELACIONAL|OPERADORES_ARITMETICOS )*
             ;
 
 /* Definicao das palavras-chave*/
-PALAVRAS_CHAVE: 'algoritmo' | 'fim_algoritmo' | 'declare' | 'constante' | 'tipo' 
+PALAVRAS_CHAVE: 'algoritmo' | 'declare' | 'constante' | 'tipo' 
 | 'literal' | 'inteiro' | 'real' | 'logico' | 'verdadeiro' | 'falso' | 'registro' | 'fim_registro' | 'procedimento' | 'fim_procedimento'
 | 'funcao' | 'fim_funcao' | 'var' | 'leia' | 'escreva' | 'se' | 'entao' | 'senao' | 'fim_se'
 | 'caso' | 'seja' | 'fim_caso' | 'para' | 'ate' | 'faca' | 'fim_para' | 'enquanto' | 'fim_enquanto' 
-| 'retorne' | 'nao' | '<-' ; 
+| 'retorne' | 'nao' | '<-' | 'fim_algoritmo'; 
 
 /* Define simbolos utilizados */
 SIMBOLOS: ':' | '=' | ',' | '[' | ']' | '^' | '(' | ')' | '-' | '&' | '..' | '.'; 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- ARQUIVO DE DEPENDENCIAS -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -26,6 +26,7 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <!-- Dependencia ANTLR4 para geração de código Java a partir da gramatica -->
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4</artifactId>
@@ -36,6 +37,7 @@
 
     <build>
         <plugins>
+            <!-- Antlr4 Plugin -->
             <plugin>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-maven-plugin</artifactId>
@@ -49,6 +51,7 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- Plugin para executar o programa via linha de comando -->
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>

@@ -1,5 +1,10 @@
 package br.ufscar.dc.compiladores.alguma.lexico;
 
+/*
+Aluno: Christian Coronel da Silva Polli
+RA: 798083
+*/
+
 import java.io.IOException;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
