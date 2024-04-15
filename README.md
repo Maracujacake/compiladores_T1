@@ -5,10 +5,22 @@
 
 ## Pré-requisitos
 
-- Java
+- Java 
+```java
+sudo apt install openjdk-8-jdk (ou versões mais recentes)
+```
 - Maven
+```python
+sudo apt install maven
+```
 - **Recomendação: Apache NetBeans**
+```
+disponível no package manager da sua distribuição linux ou no site: https://netbeans.apache.org/front/main/download/index.html
+```
 - Antlr4
+```
+deve-se adicionar a dependência no arquivo pom.xml, foi utilizada uma versão antiga devido à segurança e confiança na compatibilidade
+```
 
 ## Instruções de instalação
 
@@ -30,9 +42,11 @@ O arquivo executável está localizado no caminho:
 
 Para executá-lo, é necessário um arquivo de entrada (.txt) contendo texto (algoritmo na linguagem em questão) e um arquivo de saída (.txt) para escrita dos tokens no formato <'valor','tipo'>
 
-para clonar o repositório, basta ter o git instalado e utilizar o comando: 
+para clonar o repositório, basta ter o git instalado (``` https://git-scm.com/downloads ```) e utilizar o comando: 
 ```python
  git clone <url http do repositorio>
 ``` 
 (possível usar ssh e outros métodos que achar melhor)
+
+## <a href="https://docs.google.com/document/d/1nrkkAb3aJWtS2nYpo8nh5Piao0-aO4m55ABC8mVXCgU/edit?usp=sharing"> Mais informações (Documentação) </a>
 
